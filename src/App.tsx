@@ -7,9 +7,11 @@ function App() {
   return (
     <>
       <div>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
+        <div className="text-5xl font-extrabold ...">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+            Hello world
+          </span>
+        </div>
         <table className="border-collapse border border-slate-500 ...">
           <thead>
             <tr>
